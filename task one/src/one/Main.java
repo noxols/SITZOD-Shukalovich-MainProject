@@ -3,11 +3,11 @@ package one;
 public class Main {
 
 	public static void main(String[] args) {
-		Instrument domra = new Instrument("Домра","Струнные","Деревянные струнные", 8000, 2002);
-		Instrument suzafon = new Instrument("Сузафон","Духовые","Медные духовые", 12500, 2008);
-		Instrument royals = new Instrument("Рояль","Клавишные","Струнные клавишные", 60000, 2015);
-		Instrument baraban = new Instrument("Барабан","Ударные","С мебраной",7500,2010);
-		Instrument fleita = new Instrument("Флейта","пвапва","Медные",0,2010);
+		Instrument domra = new Instrument("Г„Г®Г¬Г°Г ","Г‘ГІГ°ГіГ­Г­Г»ГҐ","Г„ГҐГ°ГҐГўГїГ­Г­Г»ГҐ Г±ГІГ°ГіГ­Г­Г»ГҐ", 8000, 2002);
+		Instrument suzafon = new Instrument("Г‘ГіГ§Г ГґГ®Г­","Г„ГіГµГ®ГўГ»ГҐ","ГЊГҐГ¤Г­Г»ГҐ Г¤ГіГµГ®ГўГ»ГҐ", 12500, 2008);
+		Instrument royals = new Instrument("ГђГ®ГїГ«Гј","ГЉГ«Г ГўГЁГёГ­Г»ГҐ","Г‘ГІГ°ГіГ­Г­Г»ГҐ ГЄГ«Г ГўГЁГёГ­Г»ГҐ", 60000, 2015);
+		Instrument baraban = new Instrument("ГЃГ Г°Г ГЎГ Г­","Г“Г¤Г Г°Г­Г»ГҐ","Г‘ Г¬ГҐГЎГ°Г Г­Г®Г©",7500,2010);
+		Instrument fleita = new Instrument("Г”Г«ГҐГ©ГІГ ","ГЇГўГ ГЇГўГ ","ГЊГҐГ¤Г­Г»ГҐ",0,2010);
 	
 		domra.PriceInfo();
 		suzafon.PriceInfo();
@@ -20,6 +20,7 @@ public class Main {
 		royals.TypeInfo();
 		baraban.TypeInfo();
 		fleita.TypeInfo();
+		
 		
         System.out.println(domra.toString());
         System.out.println(suzafon.toString());
